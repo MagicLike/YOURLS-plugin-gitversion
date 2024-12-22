@@ -1,11 +1,11 @@
 <?php
 /*
 Plugin Name: Git Version
-Plugin URI: http://github.com/chtaube/YOURLS-plugin-gitversion
+Plugin URI: http://github.com/MagicLike/YOURLS-plugin-gitversion
 Description: Plugin to add the git version string (from git describe --long) to the footer within the admin area.
 Version: 0.1
-Author: chtaube
-Author URI: http://chtaube.eu/
+Author: chtaube & MagicLike
+Author URI: http://chtaube.eu & https://magiclike.net
 */
 
 // No direct call
