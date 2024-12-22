@@ -41,12 +41,12 @@ executable (on POSIX like systems: `chmod +x
 
 ## Plugin installation
 
-Copy the directory `gitversion/` from this repository to your YOURLS plugin
-directory `user/plugins/` (as a result the YOURLS-directory
-`user/plugins/gitversion` should show the file `plugin.php`).
+Clone this repository to the YOURLS plugin directory `user/plugins/`
+**or** make a new directory called `gitversion` in the YOURLS plugin
+directory `user/plugins/` and copy the `plugin.php` into your newly created directory.
+(as a result the YOURLS-directory `user/plugins/gitversion` should show the file `plugin.php`).
 
 Go to the admin panel and activate the plugin *Git Version*.
 
 Please note, the `version` file will be written on the next *checkout* or
 *commit*.  Before that, the plugin will simply tell you that it is missing the file.
-
